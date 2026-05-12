@@ -1,0 +1,18 @@
+<!--Originally made by oHeckGage, modified by Inkin6779 for Project School Stash-->
+<html>
+  <head>
+    <title>Game Name</title> // Replace with the actual game name, like "Meat Boy".
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/> // Little image on the tab, also known as a favicon
+    <script> // So it can escape certain filters, like GoGuardian
+        window.onbeforeunload = function() {
+            return "Are you sure you want to reload?";
+        };
+    </script>
+  </head>
+  <body>
+    <div style="text-align: center;"> // Centered to go to the middle of the screen
+    <embed src="insert.swf" width="100%" height="100%"> // Edit the width/height to have no dead pixels, and edit "insert" to correspond with the .swf file
+    </div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script> // Code to make the Shockwave Flash file work again, since 2021
+  </body>
+</html>
